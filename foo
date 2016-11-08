@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+$:.unshift(File.dirname(File.expand_path(__FILE__)) + '/lib' )
+p $LOAD_PATH
+require 'foo'
+
+Foo.start
